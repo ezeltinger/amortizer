@@ -1,0 +1,22 @@
+[project]
+name = "amortizer"
+version = "0.1.0"
+description = "A quick and dirty amortization calculator"
+authors = [
+    { name = "Ethan Zeltinger", email = "ezeltinger@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "plotly",
+    "dash",
+    "waitress>=3.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.13.0",
+    "ruff>=0.11.6",
+]
